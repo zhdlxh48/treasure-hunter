@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{c3686c19-23ac-49ff-a017-e1545cdc36d2}">
+        <property name="assetPath">
+            <value>DarkMagic_HauntedMask4.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.2630158730158729</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{719cc2fd-230f-4ed9-9aa9-ff7362cd2bb8}</destination>
+        </relationship>
+    </object>
+</objects>

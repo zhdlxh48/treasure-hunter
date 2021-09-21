@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{f37d0574-dd16-4c53-b17f-7d71f70dcf5a}">
+        <property name="name">
+            <value>Ground Level</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52717fe1-873c-46b2-90b0-7385df56f59e}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9948a553-e840-47f7-94e8-5ad8bd941d3a}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9948a553-e840-47f7-94e8-5ad8bd941d3a}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

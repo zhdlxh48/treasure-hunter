@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b83349534976ba4aa748c071317333a, type: 3}
+  m_Name: CharacterDialog
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/Dialog/CharacterDialog.xlsx
+  WorksheetName: CharacterDialog
+  dataArray:
+  - key: 1
+    face: 0
+    text: "\uBC16\uC740 \uC0DD\uAC01\uBCF4\uB2E4 \uAE68\uB057\uD55C\uB370?"
+  - key: 2
+    face: 0
+    text: "\uC790\uC6D0\uC774 \uBD80\uC871\uD558\uBA74 \uD3D0\uAC74\uBB3C \uBCBD\uB4E4\uC744
+      \uB72F\uC5B4\uAC00\uB3C4 \uB420\uD150\uB370 \uC65C \uACE0\uC0DD\uC744 \uC0AC\uC11C
+      \uD558\uB294\uAC78\uAE4C?"
+  - key: 3
+    face: 0
+    text: "\uC544~ \uB0A0\uC528 \uC88B\uB2E4~"
+  - key: 4
+    face: 0
+    text: "\uC544,\uC544\uB2C8 \uD63C\uC7A3\uB9D0\uC774\uC5C8\uC5B4\uC694!"
+  - key: 5
+    face: 0
+    text: "\uC808\uB300 \uB4B7\uB2F4\uD654\uAC00 \uC544\uB2C8\uC5D0\uC694!"
+  - key: 6
+    face: 0
+    text: "\uC774 \uC77C\uC774 \uB05D\uB098\uBA74 \uBC16\uC5D0\uC11C\uB3C4 \uC0B4\uC544\uBCF4\uACE0
+      \uC2F6\uC5B4!"
+  - key: 7
+    face: 0
+    text: "\uB9AC~\uB9AC~\uB9AC\uC790\uB85C~ \uB05D\uB098\uB294 \uB9D0\uC740~"
+  - key: 8
+    face: 0
+    text: "\uC598, \uBD04\uAC10\uC790\uAC00 \uB9DB\uC788\uB2E8\uB2E4!"
+  - key: 9
+    face: 0
+    text: "\uD3ED\uBC1C\uC740 \uC608\uC220\uC774\uB2E4!"
+  - key: 10
+    face: 0
+    text: "\uC548\uB155\uD558\uC0B4\uBC95!"
+  - key: 11
+    face: 0
+    text: "\uC624\uB298\uAC19\uC740 \uB0A0\uC740 \uC5ED\uC2DC \uC9D1\uC5D0 \uC788\uC5B4\uC57C
+      \uD588\uC5B4!"
+  - key: 12
+    face: 0
+    text: "\uC9D1 \uAC00\uACE0 \uC2F6\uB2E4"
+  - key: 13
+    face: 0
+    text: "\uC880\uB9CC \uB354 \uD798\uB0B4\uC790, \uC774\uAC70\uB9CC \uB05D\uB098\uBA74
+      \uB3FC!"
+  - key: 14
+    face: 0
+    text: "\uB09C~\uB09C \uB09C\uB09C\uB09C\uB098 \uB09C\uB098\uB098~~"
+  - key: 15
+    face: 2
+    text: "\uC0AC\uC918\uC11C \uACE0\uB9C8\uC6CC~ \uC790\uC8FC \uB4E4\uB7EC\uC8FC\uACE0~"
+  - key: 16
+    face: 3
+    text: "\uC5B4\uB54C, \uB05D\uB0B4\uC8FC\uC9C0? \uC774\uB9CC\uD55C \uBB3C\uAC74\uC740
+      \uC5B4\uB514\uC11C\uB3C4 \uBABB \uAD6C\uD55C\uB2E4\uACE0~"
+  - key: 17
+    face: 0
+    text: "\uC548 \uC0AC\uB294\uAC70\uC57C? \uD6C4\uD68C\uD560\uD150\uB370~"
+  - key: 18
+    face: 1
+    text: "\uC54C\uC558\uC5B4, \uB2E4\uB978 \uAC83\uB3C4 \uB458\uB7EC\uBD10~ (\uC774\uB798\uC11C
+      \uB208\uCE58\uBE60\uB978 \uD751\uC6B0\uB294\u2026)"
+  - key: 19
+    face: 0
+    text: "\uC774\uB807\uAC8C \uADC0\uD55C \uBB3C\uAC74\uC744 \uD310\uB2E4\uACE0?!"
+  - key: 20
+    face: 2
+    text: "\uD314\uC544\uC918\uC11C \uACE0\uB9C8\uC6CC~ \uC790\uC8FC \uB4E4\uB7EC\uC8FC\uACE0~"
+  - key: 21
+    face: 2
+    text: "\uC548\uB155! \uD0D0\uD5D8\uC740 \uC798 \uB418\uC5B4\uAC00??"
+  - key: 22
+    face: 2
+    text: "\uC804\uC5D0 \uD55C \uD615\uC81C\uAC00 \uC5B4\uB514\uC11C \uBC30\uC6CC\uC654\uB294\uC9C0
+      \uB3C4\uBC15\uC5D0 \uB300\uD574 \uAC00\uB974\uCCD0\uC8FC\uB354\uB77C\uACE0,
+      \uB108\uB3C4 \uD574\uBCFC\uB798?"
+  - key: 23
+    face: 3
+    text: "\uB098 \uC815\uB3C4\uBA74 \uADC0\uC5EC\uC6B4 \uD3B8\uC774\uC9C0~"
+  - key: 24
+    face: 2
+    text: "\uC5EC\uAE30 \uAD1C\uCC2E\uB2E4~ \uC7A5\uC0AC\uD558\uAE30\uB3C4 \uB531
+      \uC88B\uC740 \uD658\uACBD\uC774\uACE0! \uADFC\uB370 \uC190\uB2D8\uC774 \uC548
+      \uBCF4\uC774\uB124\u2026"

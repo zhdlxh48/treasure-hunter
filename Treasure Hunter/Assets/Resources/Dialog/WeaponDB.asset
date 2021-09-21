@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c00017a959d2442a71d91836bcd82d, type: 3}
+  m_Name: WeaponDB
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/Dialog/WeaponDB.xlsx
+  WorksheetName: WeaponDB
+  dataArray:
+  - key: 1
+    name: "\uB4A4\uD2C0\uB9B0 \uC6A9\uC554 \uC18D \uCCA0\uD1F4"
+    code: weapon_1
+    range: Short
+    effect: 5
+    mana: 5
+    sell: 10
+    buy: 50
+    effectmore: "\uB54C\uB9B4 \uB54C\uB9C8\uB2E4 \uB370\uBBF8\uC9C0+5"
+    num: 0
+  - key: 2
+    name: "\uB9C8\uAC10 \uC694\uC815\uC758 \uBABD\uB465\uC774"
+    code: weapon_2
+    range: Short
+    effect: 1
+    mana: 10
+    sell: 20
+    buy: 100
+    effectmore: "\uB9DE\uC740 \uC801\uC758 \uC774\uB3D9\uC18D\uB3C4\uAC00 1 \uB290\uB824
+      \uC9C4\uB2E4."
+    num: 0

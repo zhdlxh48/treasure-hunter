@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{2b433559-67f0-4572-adfc-69ba9c7ee4f8}">
+        <property name="name">
+            <value>Poisoned</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52717fe1-873c-46b2-90b0-7385df56f59e}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{b499888d-bc9b-4f68-8f41-88c48e5b57a1}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{b499888d-bc9b-4f68-8f41-88c48e5b57a1}">
+        <property name="maximum">
+            <value>4</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

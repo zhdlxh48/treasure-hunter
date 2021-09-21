@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{11a4f5d3-a975-4fda-b3ef-a8603d2a57c6}">
+        <property name="assetPath">
+            <value>Hit_Leaves12.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.63265306122448983</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{719cc2fd-230f-4ed9-9aa9-ff7362cd2bb8}</destination>
+        </relationship>
+    </object>
+</objects>

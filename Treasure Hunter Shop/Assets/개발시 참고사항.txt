@@ -1,0 +1,72 @@
+
+
+// GC없이 Dictionary 사용
+    private class PlayerStateComparer : IEqualityComparer<PlayerState>
+    {
+        public bool Equals(PlayerState x, PlayerState y)
+        {
+            return (int)x == (int)y;
+        }
+
+        public int GetHashCode(PlayerState obj)
+        {
+            return ((int)obj).GetHashCode();
+        }
+    }
+
+    // 플레이어의 현재 상황을 Dictionary로 정리
+    private Dictionary<PlayerState, PlayerStatus> playerStateManage = new Dictionary<PlayerState, PlayerStatus>(new PlayerStateComparer());
+
+    void InitState()
+    {
+        // TODO: 추후 플레이어의 상태가 추가되면 Dictionary에 추가
+
+        playerStateManage[PlayerState.IDLE] = GetComponent<PlayerIDLE>();
+        playerStateManage[PlayerState.MOVE] = GetComponent<PlayerMOVE>();
+        playerStateManage[PlayerState.ATTACK] = GetComponent<PlayerATTACK>();
+        playerStateManage[PlayerState.JUMP] = GetComponent<PlayerJUMP>();
+
+        //playerStateManage.Add(PlayerState.IDLE, GetComponent<PlayerIDLE>());
+        //playerStateManage.Add(PlayerState.MOVE, GetComponent<PlayerMove>());
+        //playerStateManage.Add(PlayerState.ATTACK, GetComponent<PlayerATTACK>());
+        //playerStateManage.Add(PlayerState.JUMP, GetComponent<PlayerJUMP>());
+    }
+
+    public PlayerState StateSetting
+    {
+        get {
+            return nowState;
+        }
+        set {
+            PlayerState settingState = value;
+
+            foreach (var states in playerStateManage.Values)
+            {
+                states.enabled = false;
+            }
+
+            playerStateManage[settingState].enabled = true;
+            // 스크립트가 실행될 때 OnEnable 대신 ScriptEnable을 실행시킴
+            playerStateManage[settingState].ScriptEnable();
+            nowState = settingState;
+        }
+    }
+
+==========================================================
+
+// event를 이용한 버튼 이용법
+    private void Start()
+    {
+        //ButtonManager.Instance.OnValueChange += UpdateMovement;
+        ButtonManager.Instance.OnValueChange += value => moveValue = value.x;
+        ButtonManager.Instance.OnJumpValueChange += value => jumpValue = value;
+    }
+
+    //private void UpdateMovement(Vector2Int value)
+    //{
+    //    moveValue = value.x;
+    //}
+
+// start 함수는 update 1프레임 전에 실행된다
+
+// Vector2Int 인자 공부하기

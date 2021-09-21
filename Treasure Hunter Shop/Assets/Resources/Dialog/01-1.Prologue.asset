@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f1a17b954571b74e97bebb3fadc0241, type: 3}
+  m_Name: 01-1.Prologue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/Dialog/01-1.Prologue.xlsx
+  WorksheetName: ExcelSheet
+  dataArray:
+  - key: 0
+    name: "\uB808\uBC0D"
+    face: 0
+    text: Sheet Test
+  - key: 1
+    name: "\uB808\uBC0D"
+    face: 1
+    text: Test Messege 1
+  - key: 2
+    name: TEST
+    face: 2
+    text: Test Messege 2
+  - key: 3
+    name: "\uB808\uBBF1"
+    face: 3
+    text: End
+  - key: 4
+    name: 
+    face: 0
+    text: <EXIT>
+  - key: 5
+    name: 
+    face: 0
+    text: 
+  - key: 6
+    name: 
+    face: 0
+    text: 
+  - key: 7
+    name: 
+    face: 0
+    text: 
+  - key: 8
+    name: 
+    face: 0
+    text: 
+  - key: 9
+    name: 
+    face: 0
+    text: 
+  - key: 10
+    name: 
+    face: 0
+    text: 
+  - key: 11
+    name: 
+    face: 0
+    text: 
+  - key: 12
+    name: 
+    face: 0
+    text: 
+  - key: 13
+    name: 
+    face: 0
+    text: 
+  - key: 14
+    name: 
+    face: 0
+    text: 
+  - key: 15
+    name: 
+    face: 0
+    text: 
+  - key: 16
+    name: 
+    face: 0
+    text: 
+  - key: 17
+    name: 
+    face: 0
+    text: 
+  - key: 18
+    name: 
+    face: 0
+    text: 
+  - key: 19
+    name: 
+    face: 0
+    text: 
+  - key: 20
+    name: 
+    face: 0
+    text: 
+  - key: 21
+    name: 
+    face: 0
+    text: 
+  - key: 22
+    name: 
+    face: 0
+    text: 
+  - key: 23
+    name: 
+    face: 0
+    text: 
+  - key: 24
+    name: 
+    face: 0
+    text: 
+  - key: 25
+    name: 
+    face: 0
+    text: 
+  - key: 26
+    name: 
+    face: 0
+    text: 
+  - key: 27
+    name: 
+    face: 0
+    text: 
+  - key: 28
+    name: 
+    face: 0
+    text: 
+  - key: 29
+    name: 
+    face: 0
+    text: 

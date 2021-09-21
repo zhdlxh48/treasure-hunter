@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{6185a76f-92a5-446f-bc3e-0017b166afc4}">
+        <property name="name">
+            <value>Drop and Get</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52717fe1-873c-46b2-90b0-7385df56f59e}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{1a8414f4-6b87-4fa2-b018-b9d09f6e887b}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{1a8414f4-6b87-4fa2-b018-b9d09f6e887b}">
+        <property name="maximum">
+            <value>2</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

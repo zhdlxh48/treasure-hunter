@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{821dcef0-cee2-408d-a578-ccbfb051725a}">
+        <property name="name">
+            <value>Hit Character</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52717fe1-873c-46b2-90b0-7385df56f59e}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{1232179f-8833-4885-b9e1-780976d24183}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{1232179f-8833-4885-b9e1-780976d24183}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

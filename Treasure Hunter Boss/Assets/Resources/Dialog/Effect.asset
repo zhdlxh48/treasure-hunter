@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b74daea57d0e0479c9ba80ea5a0a3b, type: 3}
+  m_Name: Effect
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Resources/Dialog/Relic.xlsx
+  WorksheetName: Effect
+  dataArray:
+  - key: 1
+    name: relic_1_1
+    adventureeffecttext: "\uBE68\uB77C\uC9D0(\uC554\uD2BC \uBE68\uB77C\uC9D0)"
+    findeffecttext: "\uAC15\uD574\uC9D0(\uC544\uB9C8 \uAC15\uD574\uC9D0)"
+    firstrelicname: relic_1
+    secondrelicname: relic_5_2
+    thirdrelicname: relic_8_1
+    fourthrelicname: relic_14_3

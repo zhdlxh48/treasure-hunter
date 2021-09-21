@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Platform
+  - Enemy_Body
+  - Player_Body
+  - Base
+  - Floor
+  - UI_Camera
+  - Item
+  - Dialog
+  - ItemDB
+  - Popup
+  - Treasure
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Floor
+  - Player
+  - Enemy
+  - Foot
+  - Enemy_Wall
+  - Pet_Wall
+  - Pet
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 2924280675
+    locked: 0
+  - name: BG_Tile
+    uniqueID: 3094740469
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 4144650285
+    locked: 0
+  - name: Player
+    uniqueID: 231294973
+    locked: 0
+  - name: Pet
+    uniqueID: 1431643993
+    locked: 0
+  - name: PlayGameUI
+    uniqueID: 3894315167
+    locked: 0
+  - name: SettingUI
+    uniqueID: 3548283367
+    locked: 0
+  - name: SideBarUI
+    uniqueID: 3935197459
+    locked: 0
+  - name: Item
+    uniqueID: 2630496447
+    locked: 0

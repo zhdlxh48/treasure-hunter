@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Platform
+  - Dialogue Trigger
+  - BossEnemy
+  - Item
+  - Root
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Frame
+  - Platform
+  - Background
+  - Player
+  - Enemy
+  - Pet
+  - Enemy_Wall
+  - Item
+  - NPC
+  - AttackCheck_2
+  - AttackCheck_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1992808327
+    locked: 0
+  - name: Frame & Platform
+    uniqueID: 1140577791
+    locked: 0
+  - name: Enemy
+    uniqueID: 974846851
+    locked: 0
+  - name: NPC
+    uniqueID: 1005259651
+    locked: 0
+  - name: Player
+    uniqueID: 197954657
+    locked: 0
+  - name: Root
+    uniqueID: 1344575711
+    locked: 0
+  - name: Pet
+    uniqueID: 1408239795
+    locked: 0
+  - name: Effect
+    uniqueID: 2312947059
+    locked: 0
+  - name: Item
+    uniqueID: 1581572005
+    locked: 0
+  - name: Button UI
+    uniqueID: 3213182683
+    locked: 0
+  - name: Player UI
+    uniqueID: 812612533
+    locked: 0
+  - name: Dialog UI
+    uniqueID: 862863319
+    locked: 0

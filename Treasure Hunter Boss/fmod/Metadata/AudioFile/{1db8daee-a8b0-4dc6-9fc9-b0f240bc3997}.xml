@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{1db8daee-a8b0-4dc6-9fc9-b0f240bc3997}">
+        <property name="assetPath">
+            <value>Magic_SpellImpact15.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.94510204081632654</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{719cc2fd-230f-4ed9-9aa9-ff7362cd2bb8}</destination>
+        </relationship>
+    </object>
+</objects>
